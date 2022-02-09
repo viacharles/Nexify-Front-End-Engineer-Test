@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './modules/layout/layout.component';
 import { SalaryManagementComponent } from './modules/salary-management/salary-management.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTableModule } from '@angular/material/table';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { MatTableModule } from '@angular/material/table';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatTableModule
+    // BrowserAnimationsModule,
+    // MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
